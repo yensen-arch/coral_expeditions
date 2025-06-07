@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Expert-Led Exploration",
-  description: "Benefit from the knowledge of onboard specialists—including naturalists, historians, and marine biologists—who lead insightful lectures and guided excursions, enhancing your understanding of each destination.",
+  title: "Australian Expedition Experts",
+  description: "Pioneers in coastal exploration with deep knowledge of Australia’s reef and remote coastlines.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Purpose-Built Vessels",
-  description: "Travel aboard ships designed for expedition cruising, such as the Coral Adventurer and Coral Discoverer, featuring shallow drafts for coastal access, Xplorer tenders for shore landings, and comfortable accommodations for 72 to 120 guests.",
+  title: "Custom-Built Vessels",
+  description: "Ships designed for exploration with open bridges, Xplorer tenders, and intimate guest numbers.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Immersive Shore Excursions",
-  description: "Engage in activities like snorkeling, kayaking, and guided hikes, offering close encounters with diverse ecosystems and wildlife, from the Great Barrier Reef to the rugged Kimberley coast.",
+  title: "Expedition Team Access",
+  description: "Daily briefings and shore excursions led by passionate marine biologists and naturalists.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Commitment to Sustainability",
-  description: "Participate in citizen science programs and environmentally responsible practices that contribute to the preservation of the regions explored.",
+  title: "Community Partnerships",
+  description: "Strong focus on sustainability and working closely with Indigenous communities.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Coral Expeditions Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
